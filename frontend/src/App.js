@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css'
 import Login from './component/Login'
 import Signup from './component/Signup'
-import WelcomePgae from './component/WelcomePgae'
+import WelcomePage from './component/WelcomePage'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Switch>
           <Route exact path='/' component={Signup} />
           <Route exact path='/login' component={Login} />
-          <Route exact path='/home' component={WelcomePgae} />
+          <Route exact path='/home' component={WelcomePage} />
         </Switch>
       </Router>
     </div>
